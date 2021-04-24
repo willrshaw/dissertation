@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{B464E99C-0AB8-A65C-312C-D2ACD07B08AD}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PedestrianAgent.cs">
     <Files>
-      <File FileName="Assets/PedestrianAgent.cs" Line="1" Column="1" />
-      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/PushBlock/Scripts/PushBlockSettings.cs" Line="1" Column="1" />
-      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpAgent.cs" />
+      <File FileName="Assets/PedestrianAgent.cs" Line="96" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,13 +13,10 @@
                   <Node name="Assets" expanded="True">
                     <Node name="ML-Agents" expanded="True">
                       <Node name="Examples" expanded="True">
-                        <Node name="3DBall" expanded="True">
+                        <Node name="Basic" expanded="True">
                           <Node name="Scripts" expanded="True" />
                         </Node>
-                        <Node name="PushBlock" expanded="True">
-                          <Node name="Scripts" expanded="True" />
-                        </Node>
-                        <Node name="WallJump" expanded="True">
+                        <Node name="Pyramids" expanded="True">
                           <Node name="Scripts" expanded="True" />
                         </Node>
                       </Node>
@@ -38,7 +33,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5873c060-5674-4321-bfb2-dca7f92680eb" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dc88d9f3-6180-4802-8be9-b254d7aef3d8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

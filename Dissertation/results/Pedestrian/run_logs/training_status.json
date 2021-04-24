@@ -2,17 +2,17 @@
     "PedestrianAgent": {
         "checkpoints": [
             {
-                "steps": 17411,
-                "file_path": "results/Pedestrian/PedestrianAgent/PedestrianAgent-17411.nn",
-                "reward": -0.048837210723133975,
-                "creation_time": 1619276838.544514
+                "steps": 3000,
+                "file_path": "results/Pedestrian/PedestrianAgent/PedestrianAgent-3000.nn",
+                "reward": -5.000000357627869,
+                "creation_time": 1619296014.591347
             }
         ],
         "final_checkpoint": {
-            "steps": 17411,
+            "steps": 3000,
             "file_path": "results/Pedestrian/PedestrianAgent.nn",
-            "reward": -0.048837210723133975,
-            "creation_time": 1619276838.544514
+            "reward": -5.000000357627869,
+            "creation_time": 1619296014.591347
         }
     },
     "metadata": {
