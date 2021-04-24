@@ -1,0 +1,23 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 17411,
+                "file_path": "results/Pedestrian/PedestrianAgent/PedestrianAgent-17411.nn",
+                "reward": -0.048837210723133975,
+                "creation_time": 1619276838.544514
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 17411,
+            "file_path": "results/Pedestrian/PedestrianAgent.nn",
+            "reward": -0.048837210723133975,
+            "creation_time": 1619276838.544514
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.21.0",
+        "tensorflow_version": "2.3.0"
+    }
+}
