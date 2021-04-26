@@ -1,2 +1,3 @@
-model_checkpoint_path: "PedestrianAgent-3000.ckpt"
-all_model_checkpoint_paths: "PedestrianAgent-3000.ckpt"
+model_checkpoint_path: "PedestrianAgent-500216.ckpt"
+all_model_checkpoint_paths: "PedestrianAgent-499984.ckpt"
+all_model_checkpoint_paths: "PedestrianAgent-500216.ckpt"

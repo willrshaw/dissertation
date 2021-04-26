@@ -1,39 +1,15 @@
 ﻿<Properties StartupConfiguration="{B464E99C-0AB8-A65C-312C-D2ACD07B08AD}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PedestrianAgent.cs">
     <Files>
-      <File FileName="Assets/PedestrianAgent.cs" Line="96" Column="26" />
+      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpAgent.cs" Line="194" Column="44" />
+      <File FileName="Assets/PedestrianAgent.cs" Line="202" Column="1" />
+      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodCollectorAgent.cs" />
+      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/Soccer/Scripts/AgentSoccer.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Dissertation" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="ml-agents" expanded="True">
-                <Node name="Project" expanded="True">
-                  <Node name="Assets" expanded="True">
-                    <Node name="ML-Agents" expanded="True">
-                      <Node name="Examples" expanded="True">
-                        <Node name="Basic" expanded="True">
-                          <Node name="Scripts" expanded="True" />
-                        </Node>
-                        <Node name="Pyramids" expanded="True">
-                          <Node name="Scripts" expanded="True" />
-                        </Node>
-                      </Node>
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-              <Node name="PedestrianAgent.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dc88d9f3-6180-4802-8be9-b254d7aef3d8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="50a23f58-d4e2-4956-bb9c-8b4dfbd0d1af" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
