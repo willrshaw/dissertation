@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\PedestrianAgent.cs" />
+    <Compile Include="Assets\StationBehaviour.cs" />
     <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\3DBall\Scripts\Ball3DAgent.cs" />
     <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\3DBall\Scripts\Ball3DHardAgent.cs" />
     <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Basic\Scripts\BasicController.cs" />

@@ -1,0 +1,47 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 149997,
+                "file_path": "results/Pedestrian500epochsSensor/PedestrianAgent/PedestrianAgent-149997.nn",
+                "reward": 75.29625600733254,
+                "creation_time": 1619823923.743989
+            },
+            {
+                "steps": 159939,
+                "file_path": "results/Pedestrian500epochsSensor/PedestrianAgent/PedestrianAgent-159939.nn",
+                "reward": 76.44450781830065,
+                "creation_time": 1619823933.983667
+            },
+            {
+                "steps": 169970,
+                "file_path": "results/Pedestrian500epochsSensor/PedestrianAgent/PedestrianAgent-169970.nn",
+                "reward": 72.22081864444596,
+                "creation_time": 1619824260.171087
+            },
+            {
+                "steps": 179988,
+                "file_path": "results/Pedestrian500epochsSensor/PedestrianAgent/PedestrianAgent-179988.nn",
+                "reward": 67.69333980528899,
+                "creation_time": 1619824272.0881548
+            },
+            {
+                "steps": 184477,
+                "file_path": "results/Pedestrian500epochsSensor/PedestrianAgent/PedestrianAgent-184477.nn",
+                "reward": null,
+                "creation_time": 1619824559.567064
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 184477,
+            "file_path": "results/Pedestrian500epochsSensor/PedestrianAgent.nn",
+            "reward": null,
+            "creation_time": 1619824559.567064
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.21.0",
+        "tensorflow_version": "2.3.0"
+    }
+}

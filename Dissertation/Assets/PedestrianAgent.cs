@@ -97,7 +97,7 @@ public class PedestrianAgent : Agent
         if (distanceToPlatform < 3.54f)
         { 
             goalCount++;
-            SetReward(5.0f);
+            SetReward(1.0f);
             resetAgent = true;
             EndEpisode();
         }
@@ -109,8 +109,17 @@ public class PedestrianAgent : Agent
             EndEpisode();
         }
 
+        // time punishment
         AddReward(-0.01f);
 
+        AddReward(1f / 1000f * distanceToPlatform);
+
+        if (this.StepCount == (this.MaxStep - 1))
+        {
+            AddReward(-1.0f);
+            resetAgent = true;
+            EndEpisode();
+        }
         MoveAgent(vectorAction);
     }
 
@@ -124,8 +133,8 @@ public class PedestrianAgent : Agent
         var rotateAxis = (int)act[2];
 
         float pedestrianForwardSpeed = 1f;
-        float pedestrianBackSpeed = 1f;
-        float pedestrianSideSpeed = 0.3f;
+        float pedestrianBackSpeed = 0.5f;
+        float pedestrianSideSpeed = 0.1f;
         float rotationSpeed = 100f;
 
         switch (forwardAxis)
@@ -195,7 +204,7 @@ public class PedestrianAgent : Agent
 
     public override void Initialize()
     {
-        this.MaxStep = 5000;
+        this.MaxStep = 2000;
     }
 
 }
