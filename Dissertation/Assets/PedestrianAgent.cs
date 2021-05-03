@@ -13,6 +13,7 @@ public class PedestrianAgent : Agent
     public int goalCount = 0;
     Rigidbody rBody;
     public bool resetAgent = false;
+    public Vector3 startingPos;
 
     public DateTime period;
     void Start()
@@ -24,6 +25,7 @@ public class PedestrianAgent : Agent
         //| RigidbodyConstraints.FreezePositionY
 
         //rBody.drag = 20f;
+        startingPos = this.transform.localPosition;
     }
 
     public Transform Platform;
@@ -36,25 +38,28 @@ public class PedestrianAgent : Agent
     {
         period = DateTime.Now;
         TextBox.text = "Platforms reached: " + goalCount.ToString();
-        if (Math.Abs(this.transform.localPosition.x) > 25f | Math.Abs(this.transform.localPosition.z) > 25f | resetAgent | this.StepCount >= 4990 | resetAgent)
+        
+        if (this.StepCount >= 4990 | resetAgent)
         {
             this.rBody.angularVelocity = Vector3.zero;
             this.rBody.velocity = Vector3.zero;
-            this.transform.localPosition = new Vector3(UnityEngine.Random.value * 10f + 12f, 1f, UnityEngine.Random.value * -10f - 18f);
-            this.transform.rotation = new Quaternion(0f, 1f, 0f, 1f);
+            //this.transform.localPosition = new Vector3(UnityEngine.Random.value * 10f + 12f, 1f, UnityEngine.Random.value * -10f - 18f);
+            //this.transform.localPosition = GetRandomSpawnPos();
+            this.transform.localPosition = startingPos;
+
+            this.transform.rotation = new Quaternion(0f, 0f, 0f, 1f);
             resetAgent = false;
         }
+        
 
 
         //Platform.localPosition = new Vector3(UnityEngine.Random.value * 43f - 21.5f,
         //                                 0f,
         //                               UnityEngine.Random.value * 43f - 21.5f);
 
-        Platform.localPosition = new Vector3(-18f,
-                                           0f,
-                                           18f);
+        //Platform.localPosition = new Vector3(-18f, 0f, 18f);
 
-        Floor.localPosition = new Vector3(Floor.localPosition.x, -0.05f, Floor.localPosition.z);
+        //Floor.localPosition = new Vector3(Floor.localPosition.x, -0.05f, Floor.localPosition.z);
 
     }
 
@@ -94,29 +99,20 @@ public class PedestrianAgent : Agent
 
         float distanceToPlatform = Vector3.Distance(this.transform.localPosition, Platform.localPosition);
 
-        if (distanceToPlatform < 3.54f)
+        if (distanceToPlatform <= 5.0f)
         { 
             goalCount++;
-            SetReward(1.0f);
+            AddReward(10.0f);
             resetAgent = true;
             EndEpisode();
         }
 
-        if (Math.Abs(this.transform.localPosition.x) > 25f | Math.Abs(this.transform.localPosition.z) > 25f)
-        {
-            AddReward(-0.1f);
-            resetAgent = true;
-            EndEpisode();
-        }
-
-        // time punishment
-        AddReward(-0.01f);
-
-        AddReward(1f / 1000f * distanceToPlatform);
+        // time punishment and distance reward
+        AddReward(1f / 1000f * distanceToPlatform - -0.01f);
 
         if (this.StepCount == (this.MaxStep - 1))
         {
-            AddReward(-1.0f);
+            AddReward(-5.0f);
             resetAgent = true;
             EndEpisode();
         }
@@ -140,36 +136,68 @@ public class PedestrianAgent : Agent
         switch (forwardAxis)
         {
             case 1:
-                dirToGo = transform.forward * pedestrianForwardSpeed;
+                dirToGo = this.transform.forward * pedestrianForwardSpeed;
                 break;
             case 2:
-                dirToGo = transform.forward * -pedestrianBackSpeed;
+                dirToGo = this.transform.forward * -pedestrianBackSpeed;
                 break;
         }
 
         switch (rightAxis)
         {
             case 1:
-                dirToGo = transform.right * pedestrianSideSpeed;
+                dirToGo = this.transform.right * pedestrianSideSpeed;
                 break;
             case 2:
-                dirToGo = transform.right * -pedestrianSideSpeed;
+                dirToGo = this.transform.right * -pedestrianSideSpeed;
                 break;
         }
 
         switch (rotateAxis)
         {
             case 1:
-                rotateDir = transform.up * -1f;
+                rotateDir = this.transform.up * -1f;
                 break;
             case 2:
-                rotateDir = transform.up * 1f;
+                rotateDir = this.transform.up * 1f;
                 break;
         }
 
-        transform.Rotate(rotateDir, Time.deltaTime * rotationSpeed);
+        this.transform.Rotate(rotateDir, Time.deltaTime * rotationSpeed);
         rBody.AddForce(dirToGo, ForceMode.VelocityChange);
     }
+
+
+    // https://gamedevacademy.org/unity-machine-learning-training-tutorial/
+    // retrieved from source above
+    public Vector3 GetRandomSpawnPos()
+    {
+        var foundNewSpawnLocation = false;
+        var randomSpawnPos = Vector3.zero;
+        int maxTries = 10;
+
+        while (foundNewSpawnLocation == false)
+        {
+            var randomPosX = UnityEngine.Random.value * 10f + 12f;
+            var randomPosZ = UnityEngine.Random.value * -10f - 18f;
+
+            randomSpawnPos = new Vector3(randomPosX, 1f, randomPosZ);
+            if (Physics.CheckBox(randomSpawnPos, new Vector3(2f, 2f, 1f)) == false)
+            {
+                foundNewSpawnLocation = true;
+            }
+
+            // catch case to stop infinite runtime
+            maxTries -= 1;
+            if (maxTries <= 0)
+            {
+                foundNewSpawnLocation = true;
+                randomSpawnPos = startingPos;
+            }
+        }
+        return randomSpawnPos;
+    }
+
 
     public override void Heuristic(float[] actionsOut)
     {
@@ -204,7 +232,7 @@ public class PedestrianAgent : Agent
 
     public override void Initialize()
     {
-        this.MaxStep = 2000;
+        this.MaxStep = 5000;
     }
 
 }

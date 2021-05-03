@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{B464E99C-0AB8-A65C-312C-D2ACD07B08AD}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ml-agents/Project/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerFieldArea.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PedestrianAgent.cs">
     <Files>
       <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/WallJump/Scripts/WallJumpAgent.cs" Line="194" Column="44" />
-      <File FileName="Assets/PedestrianAgent.cs" Line="202" Column="1" />
+      <File FileName="Assets/PedestrianAgent.cs" Line="43" Column="15" />
       <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/FoodCollector/Scripts/FoodCollectorAgent.cs" />
-      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/Soccer/Scripts/AgentSoccer.cs" Line="1" Column="1" />
-      <File FileName="Assets/StationBehaviour.cs" Line="1" Column="1" />
-      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerFieldArea.cs" Line="1" Column="1" />
+      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/Soccer/Scripts/AgentSoccer.cs" />
+      <File FileName="Assets/StationBehaviour.cs" />
+      <File FileName="Assets/ml-agents/Project/Assets/ML-Agents/Examples/Soccer/Scripts/SoccerFieldArea.cs" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3a163a95-c811-4165-ad2f-5d1e0d1d9c30" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e3798eb4-4037-44ad-a72a-5e78519637ac" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

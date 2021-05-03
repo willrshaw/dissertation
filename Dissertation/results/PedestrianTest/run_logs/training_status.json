@@ -1,0 +1,29 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 9984,
+                "file_path": "results/PedestrianTest/PedestrianAgent/PedestrianAgent-9984.nn",
+                "reward": null,
+                "creation_time": 1619975802.138098
+            },
+            {
+                "steps": 12000,
+                "file_path": "results/PedestrianTest/PedestrianAgent/PedestrianAgent-12000.nn",
+                "reward": 175.46344822645187,
+                "creation_time": 1619975864.088276
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 12000,
+            "file_path": "results/PedestrianTest/PedestrianAgent.nn",
+            "reward": 175.46344822645187,
+            "creation_time": 1619975864.088276
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.1.0",
+        "mlagents_version": "0.21.0",
+        "tensorflow_version": "2.3.0"
+    }
+}
