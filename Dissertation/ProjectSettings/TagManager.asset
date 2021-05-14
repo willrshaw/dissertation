@@ -36,6 +36,15 @@ TagManager:
   - platform_b
   - entrance
   - exit
+  - key
+  - blockLarge
+  - blockSmall
+  - blockVeryLarge
+  - lock
+  - dragon
+  - portal
+  - tile
+  - TextThing
   layers:
   - Default
   - TransparentFX

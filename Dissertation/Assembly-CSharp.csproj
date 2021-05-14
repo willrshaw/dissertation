@@ -66,61 +66,6 @@
   <ItemGroup>
     <Compile Include="Assets\PedestrianAgent.cs" />
     <Compile Include="Assets\StationBehaviour.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\3DBall\Scripts\Ball3DAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\3DBall\Scripts\Ball3DHardAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Basic\Scripts\BasicController.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Basic\Scripts\BasicSensorComponent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Bouncer\Scripts\BouncerAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Bouncer\Scripts\BouncerTarget.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Crawler\Scripts\CrawlerAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\FoodCollector\Scripts\FoodCollectorAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\FoodCollector\Scripts\FoodCollectorArea.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\FoodCollector\Scripts\FoodCollectorSettings.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\FoodCollector\Scripts\FoodLogic.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\GridWorld\Scripts\GridAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\GridWorld\Scripts\GridArea.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\GridWorld\Scripts\GridSettings.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Hallway\Scripts\HallwayAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Hallway\Scripts\HallwaySettings.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\PushBlock\Scripts\GoalDetect.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\PushBlock\Scripts\PushAgentBasic.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\PushBlock\Scripts\PushBlockSettings.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Pyramids\Scripts\PyramidAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Pyramids\Scripts\PyramidArea.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Pyramids\Scripts\PyramidSwitch.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Reacher\Scripts\ReacherAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Reacher\Scripts\ReacherGoal.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\AdjustTrainingTimescale.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\Area.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\FlyCamera.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\GroundContact.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\JointDriveController.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\ModelOverrider.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\Monitor.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\ProjectSettingsOverrides.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\SensorBase.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Scripts\TargetContact.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Soccer\Scripts\AgentSoccer.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Soccer\Scripts\SoccerBallController.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Soccer\Scripts\SoccerFieldArea.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Soccer\Scripts\SoccerSettings.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Startup\Scripts\Startup.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Template\Scripts\TemplateAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Tennis\Scripts\HitWall.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Tennis\Scripts\TennisAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Tennis\Scripts\TennisArea.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\WallJump\Scripts\WallJumpAgent.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\WallJump\Scripts\WallJumpSettings.cs" />
-    <Compile Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\Worm\Scripts\WormAgent.cs" />
-    <None Include="Assets\ml-agents\Project\ProjectSettings\ProjectVersion.txt" />
-    <None Include="Assets\ml-agents\test_constraints_max_tf1_version.txt" />
-    <None Include="Assets\ml-agents\test_constraints_max_tf2_version.txt" />
-    <None Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Materials\GridPatternShader.shader" />
-    <None Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Materials\ShaderOutline.shader" />
-    <None Include="Assets\ml-agents\test_constraints_min_version.txt" />
-    <None Include="Assets\ml-agents\test_requirements.txt" />
-    <None Include="Assets\ml-agents\Project\Assets\ML-Agents\Examples\SharedAssets\Materials\ShaderRadialGrid.shader" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -305,22 +250,22 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.5f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/PackageCache/com.unity.barracuda@1.0.4/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/PackageCache/com.unity.barracuda@1.4.0-preview/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/PackageCache/com.unity.burst@1.3.9/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/PackageCache/com.unity.ml-agents@1.0.7/Plugins/System.IO.Abstractions.dll</HintPath>
+      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/ml-agents-release_17/com.unity.ml-agents/Plugins/System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/PackageCache/com.unity.ml-agents@1.0.7/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/ml-agents-release_17/com.unity.ml-agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/PackageCache/com.unity.ml-agents@1.0.7/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/ml-agents-release_17/com.unity.ml-agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/PackageCache/com.unity.ml-agents@1.0.7/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/ml-agents-release_17/com.unity.ml-agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.5f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -703,9 +648,6 @@
     <Reference Include="Unity.Barracuda.iOSBLAS">
       <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/ScriptAssemblies/Unity.Barracuda.iOSBLAS.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ML-Agents.CommunicatorObjects">
-      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/ScriptAssemblies/Unity.ML-Agents.CommunicatorObjects.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
@@ -721,17 +663,27 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ML-Agents.Editor">
-      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/ScriptAssemblies/Unity.ML-Agents.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ML-Agents">
-      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/ScriptAssemblies/Unity.ML-Agents.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Barracuda.ONNX">
+      <HintPath>/Users/will/Documents/Dissertation/code/dissertation/Dissertation/Library/ScriptAssemblies/Unity.Barracuda.ONNX.dll</HintPath>
+    </Reference>
   </ItemGroup>
-  <ItemGroup></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.ML-Agents.CommunicatorObjects.csproj">
+      <Project>{EC7A36A1-0D61-1D87-A8E5-86AF62859472}</Project>
+      <Name>Unity.ML-Agents.CommunicatorObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.Editor.csproj">
+      <Project>{CCBA3940-6E24-19FA-65F9-954EE0E12574}</Project>
+      <Name>Unity.ML-Agents.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.csproj">
+      <Project>{CEE5805F-F448-DF79-1414-6354490CAC36}</Project>
+      <Name>Unity.ML-Agents</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

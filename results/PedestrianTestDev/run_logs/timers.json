@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1620225282",
+        "python_version": "3.8.5 (v3.8.5:580fbb018f, Jul 20 2020, 12:11:27) \n[Clang 6.0 (clang-600.0.57)]",
+        "command_line_arguments": "/Library/Frameworks/Python.framework/Versions/3.8/bin/mlagents-learn --run-id=PedestrianTestDev --force",
+        "mlagents_version": "0.21.0",
+        "mlagents_envs_version": "0.21.0",
+        "communication_protocol_version": "1.2.0",
+        "tensorflow_version": "2.3.0",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1620225293"
+    },
+    "total": 11.152870154999999,
+    "count": 1,
+    "self": 0.17284782499999807,
+    "children": {
+        "run_training.setup": {
+            "total": 0.011308142000000299,
+            "count": 1,
+            "self": 0.011308142000000299
+        },
+        "TrainerController.start_learning": {
+            "total": 10.968714188,
+            "count": 1,
+            "self": 0.0004079169999986476,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 10.968251448,
+                    "count": 1,
+                    "self": 10.968251448
+                },
+                "trainer_threads": {
+                    "total": 2.7790000007854587e-06,
+                    "count": 1,
+                    "self": 2.7790000007854587e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 5.204400000025089e-05,
+                    "count": 1,
+                    "self": 5.204400000025089e-05
+                }
+            }
+        }
+    }
+}

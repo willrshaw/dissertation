@@ -2,14 +2,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.UIElements;
 using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
+using Unity.MLAgents.Actuators;
 
 
 public class PedestrianAgent : Agent
 {
-    public Text TextBox;
+    public TextMesh TextBox;
     public int goalCount = 0;
     Rigidbody rBody;
     public bool resetAgent = false;
@@ -26,6 +27,8 @@ public class PedestrianAgent : Agent
 
         //rBody.drag = 20f;
         startingPos = this.transform.localPosition;
+
+        TextBox = GameObject.Find("TextThing").GetComponent<TextMesh>();
     }
 
     public Transform Platform;
@@ -93,7 +96,7 @@ public class PedestrianAgent : Agent
     }
 
     
-    public override void OnActionReceived(float[] vectorAction)
+    public override void OnActionReceived(ActionBuffers vectorAction)
     { 
         
 
@@ -119,14 +122,14 @@ public class PedestrianAgent : Agent
         MoveAgent(vectorAction);
     }
 
-    public void MoveAgent(float[] act)
+    public void MoveAgent(ActionBuffers act)
     {
         var dirToGo = Vector3.zero;
         var rotateDir = Vector3.zero;
 
-        var forwardAxis = (int)act[0];
-        var rightAxis = (int)act[1];
-        var rotateAxis = (int)act[2];
+        var forwardAxis = (int)act.DiscreteActions[0];
+        var rightAxis = (int)act.DiscreteActions[1];
+        var rotateAxis = (int)act.DiscreteActions[2];
 
         float pedestrianForwardSpeed = 1f;
         float pedestrianBackSpeed = 0.5f;
@@ -199,34 +202,35 @@ public class PedestrianAgent : Agent
     }
 
 
-    public override void Heuristic(float[] actionsOut)
+    public override void Heuristic(in ActionBuffers actionsOut)
     {
+        var discreteActionsOut = actionsOut.DiscreteActions;
         //forward
         if (Input.GetKey(KeyCode.W))
         {
-            actionsOut[0] = 1f;
+            discreteActionsOut[0] = 1;
         }
         if (Input.GetKey(KeyCode.S))
         {
-            actionsOut[0] = 2f;
+            discreteActionsOut[0] = 2;
         }
         //rotate
         if (Input.GetKey(KeyCode.A))
         {
-            actionsOut[2] = 1f;
+            discreteActionsOut[2] = 1;
         }
         if (Input.GetKey(KeyCode.D))
         {
-            actionsOut[2] = 2f;
+            discreteActionsOut[2] = 2;
         }
         //right
         if (Input.GetKey(KeyCode.E))
         {
-            actionsOut[1] = 1f;
+            discreteActionsOut[1] = 1;
         }
         if (Input.GetKey(KeyCode.Q))
         {
-            actionsOut[1] = 2f;
+            discreteActionsOut[1] = 2;
         }
     }
 

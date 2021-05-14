@@ -31,9 +31,9 @@ behaviors:
     threaded: true
 
 env_settings:
-  env_path: null
+  env_path: PedestrianAgent
   env_args: null
-  base_port: 5005
+  base_port: 5004
   num_envs: 1
   seed: -1
 engine_settings:
