@@ -1,0 +1,38 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 499962,
+                "file_path": "results/Tunnelmovement/PedestrianAgent/PedestrianAgent-499962.onnx",
+                "reward": null,
+                "creation_time": 1620907521.293679,
+                "auxillary_file_paths": [
+                    "results/Tunnelmovement/PedestrianAgent/PedestrianAgent-499962.pt"
+                ]
+            },
+            {
+                "steps": 500922,
+                "file_path": "results/Tunnelmovement/PedestrianAgent/PedestrianAgent-500922.onnx",
+                "reward": null,
+                "creation_time": 1620907521.439905,
+                "auxillary_file_paths": [
+                    "results/Tunnelmovement/PedestrianAgent/PedestrianAgent-500922.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500922,
+            "file_path": "results/Tunnelmovement/PedestrianAgent.onnx",
+            "reward": null,
+            "creation_time": 1620907521.439905,
+            "auxillary_file_paths": [
+                "results/Tunnelmovement/PedestrianAgent/PedestrianAgent-500922.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.1"
+    }
+}

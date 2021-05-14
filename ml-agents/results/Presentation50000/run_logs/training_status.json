@@ -1,0 +1,65 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 330340,
+                "file_path": "results/Presentation50000/PedestrianAgent/PedestrianAgent-330340.onnx",
+                "reward": null,
+                "creation_time": 1620805814.652917,
+                "auxillary_file_paths": [
+                    "results/Presentation50000/PedestrianAgent/PedestrianAgent-330340.pt"
+                ]
+            },
+            {
+                "steps": 349993,
+                "file_path": "results/Presentation50000/PedestrianAgent/PedestrianAgent-349993.onnx",
+                "reward": 1940.2345142594304,
+                "creation_time": 1620805848.106726,
+                "auxillary_file_paths": [
+                    "results/Presentation50000/PedestrianAgent/PedestrianAgent-349993.pt"
+                ]
+            },
+            {
+                "steps": 399992,
+                "file_path": "results/Presentation50000/PedestrianAgent/PedestrianAgent-399992.onnx",
+                "reward": 1940.2356042172535,
+                "creation_time": 1620805892.7553558,
+                "auxillary_file_paths": [
+                    "results/Presentation50000/PedestrianAgent/PedestrianAgent-399992.pt"
+                ]
+            },
+            {
+                "steps": 412925,
+                "file_path": "results/Presentation50000/PedestrianAgent/PedestrianAgent-412925.onnx",
+                "reward": null,
+                "creation_time": 1620806039.932703,
+                "auxillary_file_paths": [
+                    "results/Presentation50000/PedestrianAgent/PedestrianAgent-412925.pt"
+                ]
+            },
+            {
+                "steps": 429442,
+                "file_path": "results/Presentation50000/PedestrianAgent/PedestrianAgent-429442.onnx",
+                "reward": 1940.2334907255977,
+                "creation_time": 1620806076.000059,
+                "auxillary_file_paths": [
+                    "results/Presentation50000/PedestrianAgent/PedestrianAgent-429442.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 429442,
+            "file_path": "results/Presentation50000/PedestrianAgent.onnx",
+            "reward": 1940.2334907255977,
+            "creation_time": 1620806076.000059,
+            "auxillary_file_paths": [
+                "results/Presentation50000/PedestrianAgent/PedestrianAgent-429442.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.1"
+    }
+}

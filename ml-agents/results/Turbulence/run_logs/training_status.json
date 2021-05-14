@@ -1,0 +1,65 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 530818,
+                "file_path": "results/Turbulence/PedestrianAgent/PedestrianAgent-530818.onnx",
+                "reward": 26.00755652487278,
+                "creation_time": 1620943223.171414,
+                "auxillary_file_paths": [
+                    "results/Turbulence/PedestrianAgent/PedestrianAgent-530818.pt"
+                ]
+            },
+            {
+                "steps": 970007,
+                "file_path": "results/Turbulence/PedestrianAgent/PedestrianAgent-970007.onnx",
+                "reward": 61.133715430131325,
+                "creation_time": 1620943886.757217,
+                "auxillary_file_paths": [
+                    "results/Turbulence/PedestrianAgent/PedestrianAgent-970007.pt"
+                ]
+            },
+            {
+                "steps": 999937,
+                "file_path": "results/Turbulence/PedestrianAgent/PedestrianAgent-999937.onnx",
+                "reward": 17.88535699248314,
+                "creation_time": 1620943955.707541,
+                "auxillary_file_paths": [
+                    "results/Turbulence/PedestrianAgent/PedestrianAgent-999937.pt"
+                ]
+            },
+            {
+                "steps": 1499958,
+                "file_path": "results/Turbulence/PedestrianAgent/PedestrianAgent-1499958.onnx",
+                "reward": 29.02888127267361,
+                "creation_time": 1620944670.995452,
+                "auxillary_file_paths": [
+                    "results/Turbulence/PedestrianAgent/PedestrianAgent-1499958.pt"
+                ]
+            },
+            {
+                "steps": 1670490,
+                "file_path": "results/Turbulence/PedestrianAgent/PedestrianAgent-1670490.onnx",
+                "reward": 19.977306365966797,
+                "creation_time": 1620944922.606942,
+                "auxillary_file_paths": [
+                    "results/Turbulence/PedestrianAgent/PedestrianAgent-1670490.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1670490,
+            "file_path": "results/Turbulence/PedestrianAgent.onnx",
+            "reward": 19.977306365966797,
+            "creation_time": 1620944922.606942,
+            "auxillary_file_paths": [
+                "results/Turbulence/PedestrianAgent/PedestrianAgent-1670490.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.1"
+    }
+}

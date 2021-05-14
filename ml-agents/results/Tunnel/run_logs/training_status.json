@@ -1,0 +1,38 @@
+{
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.1"
+    },
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 438360,
+                "file_path": "results/Tunnel/PedestrianAgent/PedestrianAgent-438360.onnx",
+                "reward": null,
+                "creation_time": 1620904489.48661,
+                "auxillary_file_paths": [
+                    "results/Tunnel/PedestrianAgent/PedestrianAgent-438360.pt"
+                ]
+            },
+            {
+                "steps": 453844,
+                "file_path": "results/Tunnel/PedestrianAgent/PedestrianAgent-453844.onnx",
+                "reward": null,
+                "creation_time": 1620904698.5297742,
+                "auxillary_file_paths": [
+                    "results/Tunnel/PedestrianAgent/PedestrianAgent-453844.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 453844,
+            "file_path": "results/Tunnel/PedestrianAgent.onnx",
+            "reward": null,
+            "creation_time": 1620904698.5297742,
+            "auxillary_file_paths": [
+                "results/Tunnel/PedestrianAgent/PedestrianAgent-453844.pt"
+            ]
+        }
+    }
+}

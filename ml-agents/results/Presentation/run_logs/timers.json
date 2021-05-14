@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1620804004",
+        "python_version": "3.7.10 (default, Feb 26 2021, 10:16:00) \n[Clang 10.0.0 ]",
+        "command_line_arguments": "/Users/will/opt/anaconda3/envs/pythenviro3710/bin/mlagents-learn config/presentation.yaml --run-id=Presentation --resume",
+        "mlagents_version": "0.26.0",
+        "mlagents_envs_version": "0.26.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.19.5",
+        "end_time_seconds": "1620804014"
+    },
+    "total": 9.864471557,
+    "count": 1,
+    "self": 0.01060445799999954,
+    "children": {
+        "run_training.setup": {
+            "total": 0.23317273000000005,
+            "count": 1,
+            "self": 0.23317273000000005
+        },
+        "TrainerController.start_learning": {
+            "total": 9.620694369,
+            "count": 1,
+            "self": 0.0001083279999996023,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.426524346,
+                    "count": 1,
+                    "self": 9.426524346
+                },
+                "trainer_threads": {
+                    "total": 1.2700000002752176e-06,
+                    "count": 1,
+                    "self": 1.2700000002752176e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.19406042499999998,
+                    "count": 1,
+                    "self": 0.0012087980000003995,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.19285162699999958,
+                            "count": 1,
+                            "self": 0.19285162699999958
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

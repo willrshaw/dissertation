@@ -1,0 +1,47 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 53892,
+                "file_path": "results/TunnelmovementVel/PedestrianAgent/PedestrianAgent-53892.onnx",
+                "reward": null,
+                "creation_time": 1620909337.716193,
+                "auxillary_file_paths": [
+                    "results/TunnelmovementVel/PedestrianAgent/PedestrianAgent-53892.pt"
+                ]
+            },
+            {
+                "steps": 499998,
+                "file_path": "results/TunnelmovementVel/PedestrianAgent/PedestrianAgent-499998.onnx",
+                "reward": -220.56499379475912,
+                "creation_time": 1620917044.0552168,
+                "auxillary_file_paths": [
+                    "results/TunnelmovementVel/PedestrianAgent/PedestrianAgent-499998.pt"
+                ]
+            },
+            {
+                "steps": 700596,
+                "file_path": "results/TunnelmovementVel/PedestrianAgent/PedestrianAgent-700596.onnx",
+                "reward": null,
+                "creation_time": 1620922151.99338,
+                "auxillary_file_paths": [
+                    "results/TunnelmovementVel/PedestrianAgent/PedestrianAgent-700596.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 700596,
+            "file_path": "results/TunnelmovementVel/PedestrianAgent.onnx",
+            "reward": null,
+            "creation_time": 1620922151.99338,
+            "auxillary_file_paths": [
+                "results/TunnelmovementVel/PedestrianAgent/PedestrianAgent-700596.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.1"
+    }
+}

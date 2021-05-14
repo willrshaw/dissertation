@@ -1,0 +1,65 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 3499992,
+                "file_path": "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-3499992.onnx",
+                "reward": -21.76934358331024,
+                "creation_time": 1620935753.724701,
+                "auxillary_file_paths": [
+                    "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-3499992.pt"
+                ]
+            },
+            {
+                "steps": 3999981,
+                "file_path": "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-3999981.onnx",
+                "reward": -13.235853061443422,
+                "creation_time": 1620936529.692959,
+                "auxillary_file_paths": [
+                    "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-3999981.pt"
+                ]
+            },
+            {
+                "steps": 4256787,
+                "file_path": "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-4256787.onnx",
+                "reward": -11.285675345240412,
+                "creation_time": 1620936931.5438468,
+                "auxillary_file_paths": [
+                    "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-4256787.pt"
+                ]
+            },
+            {
+                "steps": 4308687,
+                "file_path": "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-4308687.onnx",
+                "reward": null,
+                "creation_time": 1620937126.103969,
+                "auxillary_file_paths": [
+                    "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-4308687.pt"
+                ]
+            },
+            {
+                "steps": 4488832,
+                "file_path": "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-4488832.onnx",
+                "reward": -24.299332237243654,
+                "creation_time": 1620937428.2136362,
+                "auxillary_file_paths": [
+                    "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-4488832.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4488832,
+            "file_path": "results/BigStationConfiglocky/PedestrianAgent.onnx",
+            "reward": -24.299332237243654,
+            "creation_time": 1620937428.2136362,
+            "auxillary_file_paths": [
+                "results/BigStationConfiglocky/PedestrianAgent/PedestrianAgent-4488832.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.1"
+    }
+}

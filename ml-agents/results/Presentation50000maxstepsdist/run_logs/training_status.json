@@ -1,0 +1,65 @@
+{
+    "PedestrianAgent": {
+        "checkpoints": [
+            {
+                "steps": 159277,
+                "file_path": "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-159277.onnx",
+                "reward": null,
+                "creation_time": 1620809717.997175,
+                "auxillary_file_paths": [
+                    "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-159277.pt"
+                ]
+            },
+            {
+                "steps": 199991,
+                "file_path": "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-199991.onnx",
+                "reward": 1949.2583607133613,
+                "creation_time": 1620809772.2421482,
+                "auxillary_file_paths": [
+                    "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-199991.pt"
+                ]
+            },
+            {
+                "steps": 241862,
+                "file_path": "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-241862.onnx",
+                "reward": null,
+                "creation_time": 1620809839.134024,
+                "auxillary_file_paths": [
+                    "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-241862.pt"
+                ]
+            },
+            {
+                "steps": 249990,
+                "file_path": "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-249990.onnx",
+                "reward": null,
+                "creation_time": 1620809860.357447,
+                "auxillary_file_paths": [
+                    "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-249990.pt"
+                ]
+            },
+            {
+                "steps": 252486,
+                "file_path": "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-252486.onnx",
+                "reward": null,
+                "creation_time": 1620809861.467105,
+                "auxillary_file_paths": [
+                    "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-252486.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 252486,
+            "file_path": "results/Presentation50000maxstepsdist/PedestrianAgent.onnx",
+            "reward": null,
+            "creation_time": 1620809861.467105,
+            "auxillary_file_paths": [
+                "results/Presentation50000maxstepsdist/PedestrianAgent/PedestrianAgent-252486.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.26.0",
+        "torch_version": "1.8.1"
+    }
+}
